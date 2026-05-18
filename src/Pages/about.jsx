@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div>
+    <div className="portfolio">
       <h2>About</h2>
     </div>
   );

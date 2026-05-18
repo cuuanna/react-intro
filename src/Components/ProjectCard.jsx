@@ -1,6 +1,6 @@
-function ProjectCard({ name, screenshot, github, tech, description }) {
+function ProjectCard({ name, screenshot, github, tech, description, onClick }) {
   return (
-    <div className="project-card">
+    <div className="project-card" onClick={onClick}>
       <img src={screenshot} alt={name} />
       <div className="project-info">
         <h2>{name}</h2>
